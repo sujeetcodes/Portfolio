@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.5s ease;
+}
+
+.header span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #bfbfc6;
+}
+
+.menuOption {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.menu {
+  width: 320px;
+  height: 650px;
+  background-color: crimson;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+
+@media (min-width: 768px) {
+  .header {
+    padding: 2rem 3rem;
+  }
+}

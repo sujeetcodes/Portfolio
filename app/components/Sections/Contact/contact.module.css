@@ -1,0 +1,194 @@
+.section {
+  width: 100%;
+  min-height: 90vh;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.blob {
+  width: 50%;
+  height: 50%;
+  background: conic-gradient(from 2.35rad, #c76000, #071de480);
+  filter: blur(100px);
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  user-select: none;
+  animation: blobSpin 20s linear infinite;
+  z-index: -1;
+}
+
+.sectionHead {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionHead h3 {
+  color: #bfbfc6;
+  font-weight: 800;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.sectionHead p {
+  text-align: center;
+  color: #fff6;
+  font-weight: 700;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  padding-bottom: 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+/* ======== Form Section ========= */
+.contactBox {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.formBox {
+  width: 100%;
+  padding: 1rem;
+}
+
+.nameEmail {
+  display: block;
+  gap: 1rem
+}
+
+.input {
+  width: 100%;
+  padding: .5rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: #ffffff;
+  resize: none;
+  border-bottom: 1px solid #b8ac9980;
+  border-radius: 0;
+}
+
+.input:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.input:focus-visible {
+  border-color: white;
+}
+
+.input::placeholder {
+  color: #9ba2af;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #b8ac9980;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+/* ======== Contact Info Section ========= */
+/* 
+.contactInfoBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 20rem;
+  padding: 2rem;
+  } 
+  */
+
+.contactInfoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 14rem;
+  padding: 1rem 2rem;
+}
+
+.contactHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contactHeader h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.contactFooter {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 1.5rem 0;
+  }
+
+  .sectionHead h3 {
+    font-size: 3.75rem;
+    line-height: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sectionHead p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .contactBox {
+    flex-direction: row;
+    padding: 0 3rem;
+  }
+
+  .nameEmail {
+    display: flex;
+  }
+
+  .submitButton {
+    width: 200px;
+  }
+
+  .contactInfoBox{
+    padding: 0 2rem;
+  }
+}

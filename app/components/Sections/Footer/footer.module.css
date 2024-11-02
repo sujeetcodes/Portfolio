@@ -1,0 +1,10 @@
+.footerBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: transparent;
+    color: #717078;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}

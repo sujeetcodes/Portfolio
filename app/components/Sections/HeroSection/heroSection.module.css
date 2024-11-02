@@ -1,0 +1,141 @@
+.section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.blob {
+  width: 50%;
+  height: 50%;
+  background: conic-gradient(from 2.35rad, #c76000, #071de480);
+  filter: blur(100px);
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  user-select: none;
+  animation: blobSpin 20s linear infinite;
+  z-index: -1;
+}
+
+@keyframes blobSpin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.content h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: rgb(191 191 198);
+  overflow: hidden;
+}
+
+.content h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: inherit;
+}
+
+.content p {
+  opacity: 0.7;
+  text-align: center;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: .5rem;
+}
+
+.buttons{
+  display: flex;
+  gap: 1rem;
+}
+
+.button{
+  margin-top: 1rem;
+  padding: .75rem 1.25rem;
+  border: 1px solid #ffffff80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.button2{
+  margin-top: 1rem;
+  padding: .75rem 1.25rem;
+  background-color: crimson;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button:focus,
+.button:active,
+.button2:focus,
+.button2:active {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.content a{
+  text-decoration: none;
+  color: #bfbfc6;
+}
+
+@media (min-width: 768px) {
+  .content h2 {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .content h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .content p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
