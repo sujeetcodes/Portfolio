@@ -1,6 +1,7 @@
 
 import styles from "./projects.module.css";
 import { ProjectType } from "@/app/data/ProjectsData";
+import Image from "next/image";
 import Link from "next/link";
 import React, { FC } from "react";
 
@@ -23,7 +24,7 @@ const Project:FC<ProjectType> = ({id, title, description, tags, images, liveLink
       </div>
       <div className={styles.imageContainer}>          
         <div className={styles.imageBox}>
-          <img src={images[0].url} alt={title} />          
+          <Image src={images[0].url} alt={title} />       
         </div>
       </div>
     </div>
