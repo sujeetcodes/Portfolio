@@ -6,6 +6,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  distDir: "dist"
 };
 
 export default nextConfig;
