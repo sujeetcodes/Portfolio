@@ -24,7 +24,7 @@ const Project:FC<ProjectType> = ({id, title, description, tags, images, liveLink
       </div>
       <div className={styles.imageContainer}>          
         <div className={styles.imageBox}>
-          <Image src={images[0].url} alt={title} />       
+          <Image src={images[0].url} alt={title} width={100} height={100}/>       
         </div>
       </div>
     </div>

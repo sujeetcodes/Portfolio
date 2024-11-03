@@ -20,7 +20,7 @@
 }
 
 .navItem a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 46px;
 }
@@ -32,7 +32,7 @@
 }
 
 .footer a {
-  color: black;
+  color: white;
   width: 50%;
   text-decoration: none;
   font-size: 20px;
