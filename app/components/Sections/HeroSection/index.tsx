@@ -3,6 +3,7 @@
 import { ArrowIcon, DownloadIcon } from "@/app/assets/Icons";
 import styles from "@/app/components/Sections/HeroSection/heroSection.module.css";
 import Link from "next/link";
+import { resumeLink } from "@/app/data/HeroData";
 
 
 const index = () => {
@@ -25,7 +26,7 @@ const index = () => {
                   <ArrowIcon />
                 </div>
               </Link>
-              <Link target="_blank" href="https://drive.google.com/file/d/19k_qtjJI3dhsmJf3ZyZkyM6wu-Cy5uwz/view?usp=sharing">
+              <Link target="_blank" href={resumeLink}>
                 <div className={styles.button2}>
                   <span>Get Resume</span>
                   <DownloadIcon />
