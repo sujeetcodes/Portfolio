@@ -1,1 +1,1 @@
-export const resumeLink = "https://drive.google.com/file/d/1UlCZ9KQUeTsn88DEvZk4NLTVGrBgU6BH/view?usp=drive_link"
+export const resumeLink = process.env.NEXT_PUBLIC_RESUME_LINK || "";
