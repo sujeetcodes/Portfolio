@@ -1,7 +1,7 @@
 "use client";
 
-import Button from "@/app/components/Header/Button";
-import styles from "@/app/components/Header/style.module.css";
+import Button from "@/components/Header/Button";
+import styles from "@/components/Header/style.module.css";
 import { useState, useRef, useEffect } from "react";
 import {
   AnimatePresence,
@@ -9,7 +9,7 @@ import {
   useMotionValueEvent,
   useScroll,
 } from "framer-motion";
-import Nav from "@/app/components/Header/Nav/index";
+import Nav from "@/components/Header/Nav/index";
 import Link from "next/link";
 
 const navBg = {

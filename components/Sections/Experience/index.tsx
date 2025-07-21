@@ -1,6 +1,6 @@
-import styles from "@/app/components/Sections/Experience/experience.module.css";
+import styles from "@/components/Sections/Experience/experience.module.css";
 import ExperienceDetails from "./ExperienceDetails";
-import { experienceData } from "@/app/data/ExperienceData";
+import { experienceData } from "@/data/ExperienceData";
 
 const index = () => {
   return (

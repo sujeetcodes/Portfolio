@@ -1,6 +1,6 @@
 import styles from "./skills.module.css";
 import SkillsRow from "./SkillsRow";
-import { Skills } from "@/app/data/Skills";
+import { Skills } from "@/data/Skills";
 
 const index = () => {
   return (

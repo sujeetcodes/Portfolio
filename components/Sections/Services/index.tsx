@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Service from "./Service";
 import styles from "./services.module.css";
-import { ServiceData } from "@/app/data/ServiceData";
+import { ServiceData } from "@/data/ServiceData";
 
 const index = () => {
   return (

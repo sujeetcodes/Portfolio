@@ -1,7 +1,7 @@
 "use client";
 
 import { FC, useEffect } from "react";
-import styles from "@/app/components/Sections/Experience/experience.module.css";
+import styles from "@/components/Sections/Experience/experience.module.css";
 
 interface ExperienceDetailsProps {
   id: number;
