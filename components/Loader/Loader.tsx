@@ -3,7 +3,7 @@
 import React from "react";
 import styles from "./loader.module.css";
 import { motion } from "framer-motion";
-import { LoaderIcon } from "@/app/assets/Icons";
+import { LoaderIcon } from "@/assets/Icons";
 
 export default function Check() {
   return (

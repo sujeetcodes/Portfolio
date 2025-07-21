@@ -1,6 +1,6 @@
 "use client";
 
-import { ProjectsData } from "@/app/data/ProjectsData";
+import { ProjectsData } from "@/data/ProjectsData";
 import styles from "./projects.module.css";
 import { useState } from "react";
 import Project from "./Project";

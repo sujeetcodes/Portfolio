@@ -1,9 +1,9 @@
 "use client";
 
-import { ArrowIcon, DownloadIcon } from "@/app/assets/Icons";
-import styles from "@/app/components/Sections/HeroSection/heroSection.module.css";
+import { ArrowIcon, DownloadIcon } from "@/assets/Icons";
+import styles from "@/components/Sections/HeroSection/heroSection.module.css";
 import Link from "next/link";
-import { resumeLink } from "@/app/data/HeroData";
+import { resumeLink } from "@/data/HeroData";
 
 const index = () => {
   return (

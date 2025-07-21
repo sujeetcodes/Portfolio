@@ -1,5 +1,5 @@
 import styles from "./projects.module.css";
-import { ProjectType } from "@/app/data/ProjectsData";
+import { ProjectType } from "@/data/ProjectsData";
 import Image from "next/image";
 import Link from "next/link";
 import React, { FC } from "react";

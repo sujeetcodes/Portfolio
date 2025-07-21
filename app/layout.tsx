@@ -1,5 +1,5 @@
 import "./globals.css";
-import Header from "@/app/components/Header";
+import Header from "@/components/Header";
 import { League_Spartan } from "next/font/google";
 
 const leageSpartan = League_Spartan({

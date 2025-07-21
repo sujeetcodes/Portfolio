@@ -1,5 +1,5 @@
-import styles from "@/app/components/Sections/About/about.module.css";
-import { AboutData } from "@/app/data/AboutData";
+import styles from "@/components/Sections/About/about.module.css";
+import { AboutData } from "@/data/AboutData";
 
 const index = () => {
   const paragraph = AboutData
