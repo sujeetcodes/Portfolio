@@ -1,26 +1,22 @@
-"use client"
+"use client";
 
 import { ArrowIcon, DownloadIcon } from "@/app/assets/Icons";
 import styles from "@/app/components/Sections/HeroSection/heroSection.module.css";
 import Link from "next/link";
 import { resumeLink } from "@/app/data/HeroData";
 
-
 const index = () => {
-
   return (
     <section id="hero" className={styles.section}>
       <div className={styles.container}>
         <span className={styles.blob}></span>
         <div className={styles.box}>
-          <div
-            className={styles.content}
-          >
+          <div className={styles.content}>
             <h2>Hello! I'm Sujeet Kumar</h2>
             <h1>MERN Stack Developer</h1>
             <p>Building the web with passion and precision.</p>
             <div className={styles.buttons}>
-              <Link href="#">
+              <Link href="#contact">
                 <div className={styles.button}>
                   <span>Let's talk</span>
                   <ArrowIcon />

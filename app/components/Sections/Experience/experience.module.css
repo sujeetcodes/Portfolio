@@ -64,8 +64,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .number {
@@ -158,8 +156,6 @@
   }
 
   .experienceBox {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
   }

@@ -30,7 +30,7 @@
     transform: rotate(0deg);
   }
 
-  to{
+  to {
     transform: rotate(360deg);
   }
 }
@@ -38,13 +38,14 @@
 
 
 
-.box{
+.box {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.content{
+
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,12 +77,12 @@
   column-gap: .5rem;
 }
 
-.buttons{
+.buttons {
   display: flex;
   gap: 1rem;
 }
 
-.button{
+.button {
   margin-top: 1rem;
   padding: .75rem 1.25rem;
   border: 1px solid #ffffff80;
@@ -94,7 +95,8 @@
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
-.button2{
+
+.button2 {
   margin-top: 1rem;
   padding: .75rem 1.25rem;
   background-color: crimson;
@@ -118,7 +120,7 @@
   background-color: transparent;
 }
 
-.content a{
+.content a {
   text-decoration: none;
   color: #bfbfc6;
 }

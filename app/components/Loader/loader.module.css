@@ -11,7 +11,7 @@
   z-index: 101;
 }
 
-.loaderBox h2{
+.loaderBox h2 {
   color: #fff;
   font-size: 3rem;
   text-wrap: wrap;
@@ -29,20 +29,37 @@
   animation: shine 3s linear infinite;
 }
 
-.loaderBox p{
+.loaderBox .loading {
   position: absolute;
   bottom: 50px;
   left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.loaderBox .loading svg {
+  animation: spin 1s linear infinite;
+}
+
+.loaderBox .loading p {
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
+  display: flex;
+  gap: 5px;
+}
+.loaderBox .loading p span {
+  animation: bounce 1s infinite;
+  display: inline-block;
 }
 
 @media (min-width: 768px) {
-  .loaderBox h2{
+  .loaderBox h2 {
     width: auto;
   }
-  .loaderBox p{
+  .loaderBox p {
     font-size: 1.5rem;
   }
 }
@@ -54,5 +71,24 @@
 
   100% {
     background-position-x: 1000%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
   }
 }

@@ -24,23 +24,22 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
-
   return (
     <>
-      <AnimatePresence>
-        {loading && <Loader />}
-      </AnimatePresence>
-      
-      {!loading && (<div className={styles.page}>
-        <HeroSection />
-        <About />
-        <Experience />
-        <Skills />
-        <Services />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>)}
+      <AnimatePresence>{loading && <Loader />}</AnimatePresence>
+
+      {!loading && (
+        <div className={styles.page}>
+          <HeroSection />
+          <About />
+          <Experience />
+          <Skills />
+          <Services />
+          <Projects />
+          <Contact />
+          <Footer />
+        </div>
+      )}
     </>
   );
 }

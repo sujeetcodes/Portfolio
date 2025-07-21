@@ -4,7 +4,7 @@ import AllProjects from "./AllProjects";
 const index = () => {
   return (
     <section id="projects" className={styles.section}>
-      <span className={styles.blob}></span>
+      <div className={styles.shade}></div>
       <div className={styles.sectionHead}>
         <h3>Projects</h3>
         <p>

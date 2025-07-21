@@ -14,5 +14,9 @@ export const Skills = [
   "Git",
   "GitHub",
   "Figma",
-
+  "Tailwind CSS",
+  "AWS EC2",
+  "AWS S3",
+  "AWS Lambda",
+  "AWS SQS",
 ]

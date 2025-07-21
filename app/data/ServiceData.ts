@@ -1,7 +1,7 @@
 export const ServiceData = [
   {
     heading: "Backend Development",
-    subHeading: "NodeJS, Express, MongoDB, MySQL",
+    subHeading: "NodeJS, Express, MongoDB, PostgreSQL, AWS(S3, EC2, Lambda, SQS)",
   },
   {
     heading: "Frontend Development",
@@ -9,6 +9,7 @@ export const ServiceData = [
   },
   {
     heading: "Full Stack Development",
-    subHeading: "ReactJS, NextJS, HTML, CSS, JS, NodeJS, Express, MongoDB, PostgreSQL, Redis, Docker",
+    subHeading:
+      "ReactJS, NextJS, NodeJS, Express, MongoDB, PostgreSQL, Redis, Docker, AWS(S3, EC2, Lambda, SQS)",
   },
-]
+];

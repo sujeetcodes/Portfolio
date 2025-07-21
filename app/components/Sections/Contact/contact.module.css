@@ -15,8 +15,8 @@
   background: conic-gradient(from 2.35rad, #c76000, #071de480);
   filter: blur(100px);
   position: absolute;
-  top: 5rem;
-  left: 0;
+  top: 15rem;
+  right: 0;
   user-select: none;
   animation: blobSpin 20s linear infinite;
   z-index: -1;
@@ -36,19 +36,19 @@
   font-weight: 800;
   font-size: 2.25rem;
   line-height: 2.5rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .sectionHead p {
   text-align: center;
   color: #fff6;
   font-weight: 700;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.25rem;
   padding-bottom: 1rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 /* ======== Form Section ========= */
@@ -73,12 +73,12 @@
 
 .nameEmail {
   display: block;
-  gap: 1rem
+  gap: 1rem;
 }
 
 .input {
   width: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   margin: 1rem 0;
   border: none;
   border-radius: 5px;
@@ -184,11 +184,11 @@
     padding: 0 3rem;
   }
 
-  .formBox{
+  .formBox {
     align-items: flex-end;
   }
 
-  .formBox form{
+  .formBox form {
     width: inherit;
     max-width: 500px;
   }
