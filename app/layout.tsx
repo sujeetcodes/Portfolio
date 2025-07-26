@@ -1,7 +1,6 @@
 import "./globals.css";
 import Header from "@/components/Header";
 import { League_Spartan } from "next/font/google";
-import Head from "next/head";
 import Script from "next/script";
 
 const leageSpartan = League_Spartan({
@@ -13,7 +12,8 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <Head>
+      <body className={`${leageSpartan.className}`}>
+        {/* Google Analytics Scripts */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-N79NP165RD"
           strategy="afterInteractive"
@@ -26,8 +26,7 @@ export default function RootLayout({
             gtag('config', 'G-N79NP165RD');
           `}
         </Script>
-      </Head>
-      <body className={`${leageSpartan.className}`}>
+        
         <Header />
         {children}
       </body>
