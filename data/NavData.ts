@@ -32,7 +32,7 @@ const NavFooterData = [
   },
   {
     title: 'GitHub',
-    href: 'https://github.com/SujeetYT/'
+    href: 'https://github.com/sujeetcodes/'
   },
 ]
 

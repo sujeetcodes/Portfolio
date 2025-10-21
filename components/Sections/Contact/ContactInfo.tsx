@@ -7,7 +7,7 @@ const ContactInfo = () => {
     phone: "+91 7982422191",
     address: "New Delhi, Delhi, India",
     linkedin: "https://www.linkedin.com/in/sujeetyt/",
-    gitHub: "https://github.com/SujeetYT/",
+    gitHub: "https://github.com/sujeetcodes/",
   }
 
   return (

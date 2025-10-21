@@ -78,6 +78,6 @@ export const ProjectsData: ProjectType[] = [
       },
     ],
     liveLink: "https://slotify-theta.vercel.app/",
-    gitHubLink: "https://github.com/SujeetYT/Slotify",
+    gitHubLink: "https://github.com/sujeetcodes/Slotify",
   },
 ];
